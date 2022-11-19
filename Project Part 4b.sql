@@ -1,0 +1,18 @@
+-- INSERT INTO customer VALUES (4, 'Ranvir Singh', 'Ranvir@gmail.com', 'Mexico');
+-- INSERT INTO customer VALUES (5, 'Anurag Singh', 'anurag2@gmail.com', 'Texas');
+-- 
+-- UPDATE customer SET Email='anurage231@hotmail.com' WHERE Customer_ID=5;
+-- UPDATE customer SET NAME='Ranvir Teja' WHERE Customer_ID=4;
+-- 
+-- DELETE FROM customer WHERE Customer_ID=5;
+-- 
+-- SELECT * FROM customer WHERE Address LIKE '%M%';
+-- 
+-- SELECT * FROM stock JOIN product ON stock.Product_ID=product.Product_ID;
+-- SELECT Payment_method FROM payment JOIN sales ON payment.Sales_ID=sales.Sales_ID;
+-- 
+-- SELECT SUM(Total_amount) FROM sales;
+-- SELECT MAX(Total_amount), MIN(Total_amount) FROM sales;
+-- SELECT COUNT(*) FROM product;
+-- 
+-- SELECT * FROM sales,payment;
